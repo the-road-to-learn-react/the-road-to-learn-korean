@@ -181,7 +181,7 @@ create-react-app hackernews
 cd hackernews
 ~~~~~~~~
 
-코드 에디터에서 애플리케이션을 열어 봅시다. *create-react-app*의 버전에 따라 조금 다를 수 도 있지만, 아래와 같은 폴더 구조가 보일 것입니다.
+코드 에디터에서 애플리케이션을 열어 봅시다. *create-react-app*의 버전에 따라 조금 다를 수도 있지만, 아래와 같은 폴더 구조가 보일 것입니다.
 
 {title="Folder Structure",lang="text"}
 ~~~~~~~~
