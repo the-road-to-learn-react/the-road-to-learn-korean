@@ -356,9 +356,9 @@ class App extends Component {
 export default App;
 ~~~~~~~~
 
-다시 `npm start` 명령로 애플리케이션을 실행해서 수정 사항이 반영되었는지 확인합니다.
+다시 `npm start` 명령으로 애플리케이션을 실행해서 수정 사항이 반영되었는지 확인합니다.
 
-아마 `className` 속성(attribute)이 눈에 띌 것 같습니다. `className`은 표준 HTML의 `class`로부터  왔습니다. JSX는 몇 가지 내부 HTML 속성을 바꿔야 했는데, [리액트의 HTML 속성 지원](https://reactjs.org/docs/dom-elements.html#all-supported-html-attributes)에 목록이 있습니다. 바뀐 이름들은 모두 카멜 케이스(camelCase) 표기법을 따릅니다. 앞으로 JSX 속성 몇개를 더 만나게 될 것입니다.
+아마 `className` 속성(attribute)이 눈에 띌 것 같습니다. `className`은 표준 HTML의 `class`로부터  왔습니다. JSX는 몇 가지 HTML 내부 속성을 바꿔야 했는데, [리액트의 HTML 속성 지원](https://reactjs.org/docs/dom-elements.html#all-supported-html-attributes)에 목록이 있습니다. 바뀐 이름들은 모두 카멜 케이스(camelCase) 표기법을 따릅니다. 앞으로 JSX 속성 몇개를 더 만나게 될 것입니다.
 
 ### 실습하기
 
