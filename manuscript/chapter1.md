@@ -31,11 +31,11 @@
 
 ## 1.2 준비사항
 
-이 책을 읽어나가려면 웹 개발 기술의 기본적인 사항들, 즉 HTML, CSS, JavaScript에 대해 알고있어야 합니다. 그리고 API들의 동작 방식도 알고 있어야 합니다. 이 책에서는 관련 사항을 깊게 다루게 됩니다. 또한 저는 여러분이 [공식 슬랙 그룹](https://slack-the-road-to-learn-react.wieruch.com/)에 가입해 동료들을 만나고 서로에게 도움을 주길 권장합니다.
+이 책을 읽기 위해 웹 개발에 필요한 기초적인 HTML, CSS, 자바스크립트과 API 동작 방식에 대해 알고 있어야 합니다. 그리고 API들의 동작 방식도 알고 있어야 합니다. 이 책에서는 관련 사항을 깊게 다루게 됩니다. 또한 저는 여러분이 [공식 슬랙 그룹](https://slack-the-road-to-learn-react.wieruch.com/)에 가입해 동료들을 만나고 서로에게 도움을 주길 권장합니다.
 
 ### 1.2.1 코드에디터와 터미널
 
-수업을 진행하려면 코드에디터나 IDE(Integrated Development Environment, 통합개발환경), 터미널(terminal 또는 커맨드라인 command line)이 필요합니다. 자세한 방법은 [개발 환경 설정 가이드](https://www.robinwieruch.de/developer-setup/)를 참고하기 바랍니다. 추가로 이 책의 연습문제를 풀 때 깃헙 프로젝트에 넣을 것을 권장합니다. 관련 도구의 사용법에 대해 [간단한 가이드](https://www.robinwieruch.de/git-essential-commands/)를 작성해두었습니다. 깃헙은 훌륭한 버전 관리 도구로써, 작업 중에 문제를 일으켰을 때 수정한 부분을 확인하거나 다른 사람의 작업 내용을 확인하는 직접적인 방법을 제공합니다.
+실습을 진행하려면 코드에디터나 IDE(Integrated Development Environment, 통합개발환경), 터미널(terminal 또는 커맨드라인 command line)이 필요합니다. 자세한 방법은 [개발 환경 설정 가이드](https://www.robinwieruch.de/developer-setup/)를 참고하기 바랍니다. 추가로 이 책의 연습문제를 풀 때 깃헙(GitHub) 프로젝트에 넣을 것을 권장합니다. 관련 도구의 사용법에 대해 [간단한 가이드](https://www.robinwieruch.de/git-essential-commands/)를 작성해두었습니다. 깃헙은 훌륭한 버전 관리 도구로써, 작업 중에 문제를 일으켰을 때 수정한 부분을 확인하거나 다른 사람의 작업 내용을 확인하는 직접적인 방법을 제공합니다.
 
 ### 1.2.2 node와 npm 
 
