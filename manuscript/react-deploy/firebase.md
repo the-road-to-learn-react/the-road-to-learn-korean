@@ -1,22 +1,22 @@
 ## 파이어베이스(Firebase) 배포
 
-리액트 애플리케이션을 완성한 후 남은 마지막 과정은 배포입니다. 애플리케이션 배포를 통해 아이디어를 세상에 펼치는 것은 코드를 작성해 애플리케이션 제작하는 과정까지 중 가장 핵심입니다. 파이어베이스(Firebase) 호스팅으로 애플리케이션을 배포합니다.
+리액트 애플리케이션을 완성한 후 남은 마지막 과정은 배포입니다. 애플리케이션 배포를 통해 아이디어를 세상에 펼치는 것은 코드 작성부터 애플리케이션 제작과정 중 가장 핵심입니다. 파이어베이스(Firebase) 호스팅으로 애플리케이션을 배포합니다.
 
-파이어베이스는 create-react-app 뿐 만 아니라, Angular, Vue 같은 프레임워크에도 사용할 수 있습니다. 맨 처음파이어베이스 CLI를 전역으로 설치합니다.
-
-{title="Command Line",lang="javascript"}
-~~~~~~~
-npm install -g firebase-tools
-~~~~~~~
-
-파이어베이스 CLI의 global 설치를 사용하면 프로젝트의 의존성을 신경쓰지 않고 애플리케이션을 배포 할 수 있습니다. global하게 설치된 노드 패키지는, 새로운 버전의 컨맨드를 가능한 자주 업데이트 하는 것을 잊지 맙시다.
+파이어베이스는 create-react-app 뿐 만 아니라, Angular, Vue 같은 프레임워크에도 사용할 수 있습니다. 맨 처음, 파이어베이스 CLI를 전역으로 설치합니다.
 
 {title="Command Line",lang="javascript"}
 ~~~~~~~
 npm install -g firebase-tools
 ~~~~~~~
 
-만약 아직 파이어베이스 프로젝트가 없다면, [파이어베스 계정](https://console.firebase.google.com/?pli=1)을 만들고 새로운 프로젝트를 생성합니다. 그렇게 하면 파이어베이스 CLI와 파이베이스 계정(구글 계정)과 연결할 수 있습니다: 
+파이어베이스 CLI를 전역으로 설치하면 프로젝트의 의존성을 신경쓰지 않고 애플리케이션을 배포 할 수 있습니다. 전역적으로 설치된 노드 패키지는, 새로운 버전의 커맨드를 가능한 자주 업데이트 하는 것을 잊지 맙시다.
+
+{title="Command Line",lang="javascript"}
+~~~~~~~
+npm install -g firebase-tools
+~~~~~~~
+
+만약 아직 파이어베이스 프로젝트가 없다면, [파이어베스 계정](https://console.firebase.google.com/?pli=1)을 만들고 새로운 프로젝트를 생성합니다. 그렇게 하면 파이어베이스 CLI와 파이베이스 계정(구글 계정)과 연결할 수 있습니다.
 
 {title="Command Line",lang="javascript"}
 ~~~~~~~
@@ -25,14 +25,14 @@ firebase login
 
 브라우저로 열 수 있는 URL이 커맨드라인에 표시되거나 파이어베이스 CLI가 해당 URL을 엽니다. 구글 계정 선택해 파이어베이스 프로젝트를 선택하고 구글의 권한요청을 승인합니다. 커맨드라인으로 돌아와 로그인이 성공적으로 이루어졌는지 확인합니다.
 
-다음으로, 프로젝트의 폴더로 이동해, 파이어베이스의 호스팅 feature들과 관련된 파이어베이스 프로젝트를 초기화하는 아래 컨맨드를 실행합니다.
+다음으로, 프로젝트의 폴더로 이동해, 파이어베이스의 호스팅 특징과 관련된 파이어베이스 프로젝트를 초기화하는 아래 컨맨드를 실행합니다.
 
 {title="Command Line",lang="javascript"}
 ~~~~~~~
 firebase init
 ~~~~~~~
 
-다음으로, 호스팅 옵션을 선택합니다.  만약 파이어베이스 호스팅과 같은 다른 도구들에도 관심이 있다면 다른 항목도 추가합니다.
+다음으로, 호스팅 옵션을 선택합니다. 만약 파이어베이스 호스팅과 같은 다른 도구에도 관심이 있다면 다른 항목도 추가합니다.
 
 {title="Command Line",lang="javascript"}
 ~~~~~~~
@@ -44,7 +44,7 @@ firebase init
  ? Storage: Deploy Cloud Storage security rules
 ~~~~~~~
 
-로그인을 하면 구글이 계정과 연관된 모든 파이어베이스 프로젝트들을 인식하고, 프로젝트는 파이베이스 플랫폼에서 선택 가능합니다.
+로그인을 하면 구글이 계정과 연관된 모든 파이어베이스 프로젝트를 인식하고, 프로젝트는 파이베이스 플랫폼에서 선택 가능합니다.
 
 {title="Command Line",lang="javascript"}
 ~~~~~~~
@@ -90,5 +90,5 @@ Hosting URL: https://my-react-project-abc123.firebaseapp.com
 ### 읽어보기
 
 - [파이어베이스 호스팅](https://firebase.google.com/docs/hosting/) 더 읽어보기
-- [파이어베이스로 배포한 애플리케이션에 컴스텀 도메인 연결하기](https://firebase.google.com/docs/hosting/custom-domain)
+- [파이어베이스로 배포한 애플리케이션에 커스텀 도메인 연결하기](https://firebase.google.com/docs/hosting/custom-domain)
 - 선택: 만약 클라우드 관리 서버를 원한다면, [DigitalOcean](https://www.digitalocean.com/?refcode=fb27c90322f3&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=CopyPaste)을 통해 확인 가능합니다. 이것은 해야할 일은 늘어나지만, 더 많은 통제를 할 수 있도록 합니다. [나는 그것을 통해 나의 웹 사이트, 웹애플리케이션, 백엔드 API들을 호스트합니다.](https://www.robinwieruch.de/deploy-applications-digital-ocean/)
